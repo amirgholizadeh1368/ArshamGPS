@@ -1,0 +1,41 @@
+{
+  "name": "ArshamGPS",
+  "version": "0.0.1",
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./src/assets/Fonts"
+    ]
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "moment-jalaali": "^0.8.3",
+    "react": "16.6.3",
+    "react-native": "0.58.4",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-jalali-date-picker": "^1.0.0",
+    "react-native-maps": "^0.23.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-navigation": "^2.12.0",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
